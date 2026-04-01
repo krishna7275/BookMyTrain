@@ -56,6 +56,7 @@ public class Ticket {
         Ticket.counter = counter;
     }
 
+
     @Override
     public String toString() {
         return "TicketID: "+ticketId+" | Train"+train.getName()+" |Route:"+train.getSource()+" -> "+train.getDestination()+" SeatBooked: "+seatBooked+
